@@ -18,7 +18,7 @@ done
 DEFCONFIG="tama_aurora_defconfig"
 export KBUILD_BUILD_USER=Kanonify
 export KBUILD_BUILD_HOST=aurora
-TC_DIR="/workspace/proton-clang"
+TC_DIR="/workspaces/proton-clang"
 export PATH="$TC_DIR/bin:$PATH"
 
 if [[ $1 = "-r" || $1 = "--regen" ]]; then
